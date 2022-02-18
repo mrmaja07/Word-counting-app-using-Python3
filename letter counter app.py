@@ -1,0 +1,10 @@
+print("Greeting! Welcome to Letter Count Calculator: ")
+#get the user input
+name=input("\nWhat's is your good name Buddy?\n")
+print("Hello!! "+ name)
+message=input("whay is your message "+ name + "?")
+letters=input("Please enter here to which letters from message to count " + name + "? ")
+message.lower()
+letters.lower()
+letter_count=message.count(letters)
+print(name + " in your message have " + str(letter_count)+ " letters")
